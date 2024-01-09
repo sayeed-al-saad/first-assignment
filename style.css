@@ -1,0 +1,390 @@
+/* header */
+/* *{
+    margin: 0;
+} */
+
+body{
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    
+}
+
+.banner .title{
+    height: 90vh;
+    background-image: url(resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px 150px;
+}
+
+.title-paragraph{
+    padding-top: 160px;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+}
+.title-bold{
+    width: 632px;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    color: white;
+    margin: 0 auto;
+}
+
+/* main */
+
+/* categories */
+
+.categories{
+    padding-top: 50px;
+}
+
+.categories-title{
+    color: #F00;
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.categories-paragraph{
+    color: #F00;
+    text-align: center;
+  
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.all-categories{
+    color: #070211;
+
+text-align: center;
+
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.categories-off img{
+    padding-left: 350px;
+}
+
+.midnight-party{
+    margin: 50px 140px;
+    height: 80vh;
+    background-image: url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+.midnight-left{
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.midnight-right img{
+    width: 70%;
+    padding: 80px 70px;
+}
+.midnight-title{
+    width: 642px;
+    color: #FFF;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.midnight-paragraph{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.midnight-btn{
+    width: 150px;
+    height: 50px;
+    background-color: #F00;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.midnight-btn a{
+    text-decoration: none;
+    color: #FFF;
+
+    text-align: center;
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.locations{
+    
+    margin: 100px 500px;
+}
+.place, .time, .date{
+    text-align: center;
+margin-bottom: -50px;
+color: #070211;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+
+span{
+    color: #F00;
+}
+
+
+.join-now{
+    width: 150px;
+    height: 50px;
+    background-color: #F00;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin: 70px 190px;
+}
+.join-now a{
+    text-decoration: none;
+    color: #FFF;
+
+    text-align: center;
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.holidays-sale{
+    margin-top: 50px;
+}
+
+.holidays-low-title{
+    color: #070211;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.holidays-bold{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.holi{
+    color: #F00;
+
+text-align: center;
+
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+padding-right: 20px;
+}
+.holidays-paragraph{
+    margin-left: 200px;
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+}
+.holidays-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.holidays-image-left img{
+    width: 80%;
+    margin-left: 20%;
+    margin-bottom: -30%;
+}
+
+.second{
+    margin-right: 60px;
+    display: inline-block;
+}
+.holidays-image-right{
+    display: flex;
+}
+.rectangle{
+    
+    
+    margin: 5%;
+}
+
+.awesome-gift{
+
+}
+
+.awesome{
+
+}
+
+.awesome-title-low{
+    color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.awesome-title{
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.awesome-paragraph{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+
+
+
+
+
+
+.newslater{
+
+}
+.news{
+
+}
+.news img{
+    margin: 50px 45%;
+}
+.news-title{
+    color: #070211;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.news-paragraph{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-left: 20%;
+}
+
+footer{
+    background: #070211;
+    
+height: 609px;
+}
+
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-location{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+width: 200px;
+padding-top: 2%;
+padding-left: 5%;
+}
+.footer-contact{
+    color: #FFF;
+padding-top: 2%;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+width: 160px;
+padding-right: 5%;
+}
+.logos{
+    display: flex;
+    padding: 5% 40%;
+}
+.logos img{
+    width: 50%;
+    
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    color: #FFF;
+padding: 2% 5%;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+hr{
+    background-color: #F00;
+}
